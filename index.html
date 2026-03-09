@@ -1,34 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>TIExperto | Soluciones Tecnológicas</title>
+<title>TIExperto | Integrador Tecnológico</title>
 
 <style>
 
 body{
 margin:0;
-font-family:Arial, Helvetica, sans-serif;
+font-family:Arial;
 background:#0f172a;
 color:white;
 }
 
 header{
 background:#020617;
-padding:20px;
-text-align:center;
+padding:15px;
+display:flex;
+align-items:center;
+justify-content:space-between;
 border-bottom:2px solid #6366f1;
 }
 
-header h1{
-margin:0;
-color:#6366f1;
-}
-
-nav{
-margin-top:10px;
+header img{
+height:60px;
 }
 
 nav a{
@@ -39,18 +37,18 @@ font-weight:bold;
 }
 
 .hero{
-padding:80px 20px;
 text-align:center;
-background:linear-gradient(135deg,#1e293b,#0f172a);
+padding:80px 20px;
+background:linear-gradient(135deg,#1e293b,#020617);
 }
 
-.hero h2{
+.hero h1{
 font-size:40px;
-margin-bottom:10px;
+color:#818cf8;
 }
 
 .container{
-max-width:1000px;
+max-width:1100px;
 margin:auto;
 padding:40px 20px;
 }
@@ -68,24 +66,27 @@ border-radius:10px;
 }
 
 .card h3{
-color:#818cf8;
+color:#6366f1;
 }
 
-.about{
-background:#020617;
-padding:40px 20px;
+section h2{
 text-align:center;
+margin-bottom:40px;
 }
 
-.contact{
-text-align:center;
-padding:40px 20px;
+.list{
+max-width:800px;
+margin:auto;
+}
+
+.list li{
+margin:8px 0;
 }
 
 footer{
-text-align:center;
-padding:20px;
 background:#020617;
+text-align:center;
+padding:30px;
 color:#94a3b8;
 }
 
@@ -102,89 +103,168 @@ font-weight:bold;
 }
 
 </style>
+
 </head>
 
 <body>
 
 <header>
 
-<h1>TIExperto</h1>
+<img src="logo-tiexperto.png.jpg">
+
 <nav>
+
+<a href="#">Inicio</a>
 <a href="#servicios">Servicios</a>
-<a href="#nosotros">Nosotros</a>
+<a href="#sectores">Sectores</a>
+<a href="#ventajas">Ventajas</a>
 <a href="#contacto">Contacto</a>
+
 </nav>
+
 </header>
+
 
 <section class="hero">
 
-<img src="logo-tiexperto.png.jpg" style="width:160px">
+<h1>Expertos en Innovación Tecnológica</h1>
 
-<h2>Tu Experto en Innovacion Tecnológica</h2>
-
-<p>Infraestructura, soporte y automatización para empresas y profesionales.</p>
+<p>Integradores certificados con acceso al catálogo completo de SYSCOM, líder en tecnología de seguridad, redes y automatización en México.</p>
 
 </section>
-<section class="container" id="servicios">
 
-<h2>Servicios</h2>
+
+<section id="servicios" class="container">
+
+<h2>Áreas de Especialización</h2>
 
 <div class="cards">
 
 <div class="card">
-<h3>Soporte Técnico</h3>
-<p>Diagnóstico, reparación y mantenimiento de equipos de cómputo.</p>
+<h3>Videovigilancia</h3>
+<p>CCTV analógico e IP, análisis de video con IA, videowalls y centros de monitoreo.</p>
 </div>
 
 <div class="card">
-<h3>Redes</h3>
-<p>Instalación y configuración de redes empresariales seguras y eficientes.</p>
+<h3>Control de Acceso</h3>
+<p>Sistemas biométricos, torniquetes, cerraduras electrónicas e integración con RH.</p>
 </div>
 
 <div class="card">
-<h3>Automatización</h3>
-<p>Soluciones tecnológicas para optimizar procesos y mejorar productividad.</p>
+<h3>Energía y Respaldo</h3>
+<p>UPS, baterías de litio, energía solar, reguladores y tableros eléctricos.</p>
 </div>
 
 <div class="card">
-<h3>Consultoría TI</h3>
-<p>Asesoría especializada para implementar tecnología en tu negocio.</p>
+<h3>Sistemas Contra Incendio</h3>
+<p>Detección de humo, alarmas direccionables y cumplimiento NFPA y NOM.</p>
+</div>
+
+<div class="card">
+<h3>Automatización e Intrusión</h3>
+<p>Alarmas, sensores perimetrales, domótica y sistemas anti-intrusión.</p>
+</div>
+
+<div class="card">
+<h3>Radiocomunicación</h3>
+<p>Radios portátiles, repetidoras, TETRA, P25 y LoRaWAN.</p>
+</div>
+
+<div class="card">
+<h3>Redes y Conectividad</h3>
+<p>LAN/WAN, WiFi 6 y 7, switches, routers y alta disponibilidad.</p>
+</div>
+
+<div class="card">
+<h3>Cableado Estructurado</h3>
+<p>UTP Cat6/6A/7, fibra óptica, FTTH y certificación de redes.</p>
+</div>
+
+<div class="card">
+<h3>GPS y Transporte</h3>
+<p>Rastreo satelital, gestión de flotillas y sistemas para transporte.</p>
+</div>
+
+<div class="card">
+<h3>Audio y Video Profesional</h3>
+<p>Video walls, señalización digital y sistemas audiovisuales.</p>
+</div>
+
+<div class="card">
+<h3>Automatización Industrial</h3>
+<p>PLC, SCADA, sensores industriales, robótica e Industria 4.0.</p>
 </div>
 
 </div>
 
 </section>
 
-<section class="about" id="nosotros">
 
-<h2>Sobre TIExperto</h2>
+<section id="sectores" class="container">
 
-<p>
-TIExperto ofrece soluciones tecnológicas confiables para empresas y profesionales.
-Nuestro objetivo es ayudarte a aprovechar la tecnología para mejorar tu operación,
-seguridad y productividad.
-</p>
+<h2>Sectores que Atendemos</h2>
+
+<ul class="list">
+
+<li>Corporativo</li>
+<li>Industrial</li>
+<li>Educativo</li>
+<li>Salud</li>
+<li>Gobierno</li>
+<li>Residencial</li>
+<li>Hospitality</li>
+<li>Transporte</li>
+
+</ul>
 
 </section>
 
-<section class="contact" id="contacto">
+
+<section id="ventajas" class="container">
+
+<h2>Ventajas Competitivas</h2>
+
+<ul class="list">
+
+<li>Acceso a más de 180 marcas líderes</li>
+<li>Relación directa con SYSCOM</li>
+<li>Entregas rápidas en todo México</li>
+<li>Soporte técnico especializado</li>
+<li>Ingeniería multidisciplinaria</li>
+<li>Soluciones integrales</li>
+
+</ul>
+
+</section>
+
+
+<section id="contacto" class="container">
 
 <h2>Contacto</h2>
 
-<p>Email: contacto@tiexperto.com.mx</p>
+<p><b>Correo:</b> alejandro.lopez@tiexperto.com.mx</p>
 
-<p>Atención en México</p>
+<p><b>Teléfono:</b> 8126351943</p>
+
+<p><b>Dirección:</b> Victoria #110, Valle del Canadá, Escobedo NL</p>
+
+<p><b>WhatsApp:</b> 8126351943</p>
 
 </section>
 
+
 <footer>
 
-© 2026 TIExperto | Soluciones Tecnológicas
+© 2026 TIExperto | Integrador Tecnológico  
+Alianza estratégica con SYSCOM
 
 </footer>
 
-<a class="whatsapp" href="https://wa.me/5210000000000">
+
+<a class="whatsapp" href="https://wa.me/528126351943">
+
 WhatsApp
+
 </a>
 
 </body>
